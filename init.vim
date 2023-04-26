@@ -7,3 +7,6 @@ set expandtab
 set smartindent
 
 colorscheme habamax
+
+let mapleader = " "
+nnoremap <leader>pv :Vex<CR>
