@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
     use 'ThePrimeagen/harpoon'
     use 'mbbill/undotree'
     use 'tpope/vim-fugitive'
+    use 'rust-lang/rust.vim'
     use('neovim/nvim-lspconfig')
     use('jose-elias-alvarez/null-ls.nvim')
     use('MunifTanjim/prettier.nvim')
