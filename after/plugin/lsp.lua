@@ -15,6 +15,7 @@ lsp.setup_servers({
     'volar',
     'tailwindcss',
     'prettier',
+    'rust_analyzer'
 })
 
 lsp.setup()
