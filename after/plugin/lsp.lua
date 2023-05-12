@@ -8,6 +8,13 @@ end)
 
 -- When you don't have mason.nvim installed
 -- You'll need to list the servers installed in your system
-lsp.setup_servers({'lua_ls', 'tsserver', 'eslint', 'volar'})
+lsp.setup_servers({
+    'lua_ls',
+    'tsserver',
+    'eslint',
+    'volar',
+    'tailwindcss',
+    'prettier',
+})
 
 lsp.setup()
